@@ -137,9 +137,9 @@ export default function Hospitals() {
                 <Box
                     fontSize={{base: '20px', xl: '22px'}}
                     bgColor="#D1EEFE"
-                    my="10"
-                    p="4"
-                    color="blackAlpha.900"
+                    px={4}
+                    py={10}
+                    color="#0D47A1"
                     borderRadius="sm"
                     data-aos="fade-up"
                 >
@@ -151,8 +151,8 @@ export default function Hospitals() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box p="4" borderRadius="sm" data-aos="fade-up" bgColor="#D1EEFE" color="#1E1E1E">
-                    <Text fontWeight="regular" fontSize={{md: '20px'}} letterSpacing="wide">
+                <Box px={4} py={10} borderRadius="sm" data-aos="fade-up" bgColor="#D1EEFE" color="#0D47A1">
+                    <Text fontWeight="regular" fontSize={{base: '20px', xl: '22px'}} letterSpacing="wide">
                         Уникальные компетенции врачебного корпуса, уровень медицинского обслуживания наравне с
                         европейским, самое передовое оборудование, замкнутый цикл медицинской помощи – возможности
                         для пациентов Центра госпитализации и сопровождения пациентов МСК в стационарах партнерских
@@ -160,15 +160,15 @@ export default function Hospitals() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box color="#0d47a1" data-aos="fade-up">
-                    <Heading size="lg" textAlign="center">
+                <Box color="#0d47a1" data-aos="fade-up" px={4}>
+                    <Heading size="lg">
                         Сегодня для всех, кто ценит качество, комфорт, сервис Центр госпитализации и сопровождения
                         пациентов МСК организует госпитализацию в лучшие медицинские учреждения страны.
                     </Heading>
                 </Box>
                 <BaseDivider/>
-                <Box textAlign="center" color="#0d47a1" data-aos="fade-up">
-                    <Heading>Выберите направление госпитализации</Heading>
+                <Box textAlign={{base: 'start', lg: 'center'}} color="#0d47a1" data-aos="fade-up">
+                    <Heading px={4}>Выберите направление госпитализации</Heading>
                     <DirectionsHospitalization options={directionsOfHospitalizationOptions}/>
                 </Box>
                 <BaseDivider/>
@@ -180,8 +180,8 @@ export default function Hospitals() {
                     <HospitalizationSteps/>
                 </Box>
                 <BaseDivider/>
-                <Box textAlign="center" data-aos="fade-up">
-                    <Heading color="#0D47A1">
+                <Box data-aos="fade-up">
+                    <Heading color="#0D47A1" textAlign={{base: 'start', lg: 'center'}} px={4}>
                         Партнерская сеть
                         Центра госпитализации и сопровождения пациентов МСК
                     </Heading>

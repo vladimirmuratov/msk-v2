@@ -8,7 +8,7 @@ export const BaseHospitalizationStep = ({imgUrl, label, children}) => {
                 <Box height="50px" width="50px" flexShrink="0">
                     <Image src={imgUrl}/>
                 </Box>
-                <Box textAlign={{base: "center", md: "start"}}>
+                <Box>
                     <Text fontWeight="bold">{label}</Text>
                     {children}
                 </Box>

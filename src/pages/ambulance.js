@@ -50,7 +50,7 @@ export default function Ambulance() {
                 </Box>
                     <BasePhoneBlock/>
                 <Box bgColor="#0d47a1" color="white" px={4} py={10} borderRadius={{md: 'sm'}} data-aos="fade-up">
-                    <Box textAlign="center" borderBottom="1px solid white" mb={10}>
+                    <Box textAlign={{base: 'start', lg: 'center'}} borderBottom="1px solid white" mb={10}>
                         <Heading>Оказание скорой медицинской помощи</Heading>
                     </Box>
                     <Box fontSize={{base: '20px', xl: '22px'}} mt="10" display="flex" flexDirection="column"
@@ -74,32 +74,32 @@ export default function Ambulance() {
                     </Box>
                 </Box>
                 <BaseDivider/>
-                <Box data-aos="fade-up" bgColor="#e8f5e9" color="#0d47a1" py="4" borderRadius="sm">
+                <Box data-aos="fade-up" bgColor="#D1EEFE" color="#0d47a1" py={10} borderRadius="sm">
                     <List pl={{base: '4', md: '8'}} spacing="4" fontSize={{base: '18px', xl: '22px'}} fontWeight="medium">
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Оказание медицинской помощи 24/7 без праздников и выходных.
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Оперативный приезд бригады скорой помощи.
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Высококвалифицированные специалисты имеют практический опыт оказания помощи в
                             самых сложных ситуациях.
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Помощь в условиях реанимобиля для поддержания жизнедеятельности пациента до
                             приезда в стационар.
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Современное оборудование и наличие всех необходимых лекарств.
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckCircleIcon} color="green.300" fontSize="1.5rem"/>
+                            <ListIcon as={CheckCircleIcon} color="blue.400" fontSize="1.5rem"/>
                             Комфортная транспортировка - гидравлические кушетки, мягкие ремни, сидения для
                             сопровождающих.
                         </ListItem>
@@ -125,7 +125,7 @@ export default function Ambulance() {
                 </Box>
                 <BaseDivider/>
                 <Box bgColor="#cfd8dc" px={4} py={10} borderRadius={{md: 'sm'}} data-aos="fade-up">
-                    <Box mb={10} borderBottom="1px solid gray" textAlign="center">
+                    <Box mb={10} borderBottom="1px solid gray" textAlign={{base: 'start', lg: 'center'}}>
                         <Heading mb="5">Когда необходима экстренная госпитализация:</Heading>
                     </Box>
                     <List pl="0" spacing="4" fontSize={{base: '20px', xl: '22px'}}>
@@ -174,7 +174,7 @@ export default function Ambulance() {
                     borderRadius={{md: 'sm'}}
                     data-aos="fade-up"
                 >
-                    <Box mb={10} borderBottom="1px solid white" textAlign="center">
+                    <Box mb={10} borderBottom="1px solid white" textAlign={{base: 'start', lg: 'center'}}>
                         <Heading>Как проводится экстренная госпитализация</Heading>
                     </Box>
                     <Text>

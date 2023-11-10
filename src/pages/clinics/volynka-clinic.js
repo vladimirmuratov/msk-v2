@@ -28,7 +28,7 @@ export default function VolynkaClinic() {
                         style={{width: '100%', height: 'auto'}}
                     />
                     <BaseDivider/>
-                    <Box p={4}>
+                    <Box p={4} textAlign='start'>
                         <Heading size="lg">
                             Федеральное государственное
                             бюджетное учреждение "Клиническая больница №1" Управления делами Президента РФ
@@ -38,9 +38,9 @@ export default function VolynkaClinic() {
                     </Box>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
+                <Box px={4} py={10} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
                      data-aos="fade-up">
-                    <Heading size="lg" my={10}>Инфраструктура</Heading>
+                    <Heading size="lg" mb={10}>Инфраструктура</Heading>
                     <Text>
                             <span
                                 style={{fontWeight: 'bold'}}>Центр госпитализации и сопровождения пациентов МСК</span> является
@@ -71,9 +71,9 @@ export default function VolynkaClinic() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
+                <Box px={4} py={10} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
                      data-aos="fade-up">
-                    <Heading size="lg" my={10}>Стационар</Heading>
+                    <Heading size="lg" mb={10}>Стационар</Heading>
                     <Text>
                         В ФГБУ "Клиническая больница №1" Управления делами Президента РФ (Волынская) можно пройти
                         стационарное лечение платной основе.
@@ -109,9 +109,9 @@ export default function VolynkaClinic() {
                         style={{color: '#1976d2', textDecoration: 'underline'}}>Подробнее</Link>
                 </Box>*/}
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
+                <Box px={4} py={10} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', lg: '22px'}}
                      data-aos="fade-up">
-                    <Heading size="lg" my={10}>Инновационная хирургия и уникальные методики</Heading>
+                    <Heading size="lg" mb={10}>Инновационная хирургия и уникальные методики</Heading>
                     <Text>
                         «Больница высоких технологий» - так называют Волынскую больницу в профессиональном
                         сообществе.
@@ -132,34 +132,34 @@ export default function VolynkaClinic() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box bgColor="#e8f5e9" p="4" borderRadius="sm" data-aos="fade-up">
-                    <List px={{base: '2', md: '0'}}>
+                <Box bgColor="#D1EEFE" px={4} py={10} borderRadius="sm" data-aos="fade-up">
+                    <List>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', lg: '22px'}}>
                                 Методика холодноплазменной хирургии
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', lg: '22px'}}>
                                 Тапедопластика — уникальные операции по восстановлению слуха
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', lg: '22px'}}>
                                 Малоинвазивные хирургические методики
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', lg: '22px'}}>
                                 Уникальные операции по ортопедической коррекции нижних конечностей
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', lg: '22px'}}>
                                 Методика ангиографии и стентирования коронарных сосудов в самые первые часы развития
                                 инфаркта миокарда
@@ -168,9 +168,9 @@ export default function VolynkaClinic() {
                     </List>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} bgColor="#D1EEFE" borderRadius="md" fontSize={{base: '20px', xl: '22px'}}
+                <Box px={4} py={10} bgColor="#D1EEFE" borderRadius="md" fontSize={{base: '20px', xl: '22px'}}
                      data-aos="fade-up">
-                    <Heading size="lg" my={10}>Комфорт и сервис</Heading>
+                    <Heading size="lg" mb={10}>Комфорт и сервис</Heading>
                     <Text>
                         Чистота в отделениях, уют, доброжелательная атмосфера, приветливость персонала завоёвывают
                         любовь и уважение пациентов Волынской больницы . Ламинарные потоки воздуха, исключающие
@@ -183,7 +183,7 @@ export default function VolynkaClinic() {
                 </Box>
                 <BaseDivider/>
                 <Box data-aos="fade-up">
-                    <Box px={{base: '3', md: '0'}} textAlign="center" mb="10">
+                    <Box px={{base: '3', md: '4'}} mb="10">
                         <Heading size="lg">
                             Пройти стационарное лечение в ФГБУ «Клиническая больница №1» (Волынская) Управления
                             делами

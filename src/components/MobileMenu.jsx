@@ -34,8 +34,8 @@ export const MobileMenu = ({isOpen, onClose, links1, links2, currentPath}) => {
                             <Link href={link.path} onClick={onClose}>{link.label}</Link>
                         </Box>
                     ))}
-                    <Divider/>
-                    {links2.map((link) => (
+                    {/*<Divider/>*/}
+                    {/*{links2.map((link) => (
                         <Box
                             key={link.id}
                             as='span'
@@ -44,7 +44,7 @@ export const MobileMenu = ({isOpen, onClose, links1, links2, currentPath}) => {
                         >
                             <Link href={link.path} onClick={onClose}>{link.label}</Link>
                         </Box>
-                    ))}
+                    ))}*/}
                 </DrawerBody>
                 <DrawerFooter display='flex' justifyContent='flex-start'>
                     <Text color='#009DFF'>{phoneNumber}</Text>

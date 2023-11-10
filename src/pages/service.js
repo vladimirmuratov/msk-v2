@@ -68,7 +68,7 @@ export default function Service() {
                      borderRadius="sm"
                      data-aos="fade-up"
                 >
-                    <Text fontSize="18px" fontWeight="medium" color='#0D47A1'>
+                    <Text fontSize={{base: '20px', xl: '22px'}} fontWeight="medium" color='#0D47A1'>
                         Подбираем оптимальный план лечения по поставленному диагнозу, учитывая ваши требования и
                         возможности.
                         Мы напрямую работаем с ведущими медицинскими учреждениями России. Одно из преимуществ нашей

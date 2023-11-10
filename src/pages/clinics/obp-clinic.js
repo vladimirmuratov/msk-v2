@@ -28,7 +28,7 @@ export default function ObpClinic() {
                         style={{width: '100%', height: 'auto'}}
                     />
                     <BaseDivider/>
-                    <Box px={4}>
+                    <Box px={4} textAlign='start'>
                         <Heading size="lg">
                             Федеральное государственное бюджетное учреждение «Объединенная больница с поликлиникой»
                             Управления делами Президента Российской Федерации
@@ -92,9 +92,9 @@ export default function ObpClinic() {
                     />
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
+                <Box px={4} py={10} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
                      borderRadius="sm">
-                    <Heading size="lg" my={10}>Контроль качества и безопасность пациентов</Heading>
+                    <Heading size="lg" mb={10}>Контроль качества и безопасность пациентов</Heading>
                     <Text>
                         ФГБУ ОБП прошла сертификацию по менеджменту качества медицинских услуг и получила сертификат
                         соответствия требованиям ГОСТ Р ИСО 9001-2015 ( ISO 9001:2015) - национальному стандарту
@@ -110,40 +110,40 @@ export default function ObpClinic() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box data-aos="fade-up" bgColor="#e8f5e9" p="4" borderRadius="sm">
+                <Box data-aos="fade-up" bgColor="#D1EEFE" px={4} py={10} borderRadius="sm">
                     <List px={{base: '3', md: '0'}}>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 90% операций - лапароскопические, без разрезов
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 Методика «FAST-TRACK surgery» (FTS) – быстрое восстановление после операций
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 Минимум операционного дискомфорта
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 Успешный опыт операций повышенной сложности
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 Уникальная компьютерная навигационная система
                             </Text>
                         </ListItem>
                         <ListItem display="flex" alignItems={{base: 'flex-start', md: 'center'}} gap="3" mb="3">
-                            <CheckCircleIcon boxSize="1.5rem" color="green.300" mt={{base: '2', md: '0'}}/>
+                            <CheckCircleIcon boxSize="1.5rem" color="blue.400" mt={{base: '2', md: '0'}}/>
                             <Text m="0" fontWeight="medium" fontSize={{base: '20px', xl: '22px'}}>
                                 Собственные авторские методики
                             </Text>
@@ -151,9 +151,9 @@ export default function ObpClinic() {
                     </List>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
+                <Box px={4} py={10} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
                      borderRadius="sm">
-                    <Heading size="lg" my={10}>Комфорт и сервис</Heading>
+                    <Heading size="lg" mb={10}>Комфорт и сервис</Heading>
                     <Text>
                         В ФБГУ ОБП созданы все условия для комфорта и скорейшего выздоровления пациентов -
                         размещение в палатах повышенной комфортности, круглосуточно охраняемый вход, специально
@@ -165,7 +165,7 @@ export default function ObpClinic() {
                 </Box>
                 <BaseDivider/>
                 <Box data-aos="fade-up">
-                    <Box px={{base: '3', md: '0'}} textAlign="center" mb="100px">
+                    <Box px={{base: '3', md: '4'}} mb="100px">
                         <Heading size="lg">
                             Пройти стационарное лечение в ФБГУ ОБП можно, обратившись в Центр госпитализации и
                             сопровождения пациентов МСК
