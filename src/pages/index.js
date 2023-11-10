@@ -84,7 +84,7 @@ export default function Home() {
                     </Box>
                 </Box>
                 <DirectionsHospitalization options={directionsOfHospitalizationOptions} label="Направления госпитализации"/>
-                <Box px={{base: "3", sm: "1"}}>
+                <Box px={{base: "0", sm: "1"}}>
                     <HospitalsBlock isLocal={true}/>
                 </Box>
                 <BasePhoneBlock/>
