@@ -8,7 +8,7 @@ export const volynkaPhotoGalleryOptions = [
     {id: 7, imgUri: '/images/hospitals-img/volynka-gallery/volynka7.jpg'},
     {id: 8, imgUri: '/images/hospitals-img/volynka-gallery/volynka8.jpg'},
     {id: 9, imgUri: '/images/hospitals-img/volynka-gallery/volynka9.jpg'},
-    {id: 10, imgUri: '/images/hospitals-img/volynka-gallery/volynka10.jpg'},
+    {id: 10, imgUri: '/images/hospitals-img/volynka-gallery/volynka10.JPG'},
     {id: 11, imgUri: '/images/hospitals-img/volynka-gallery/volynka11.jpg'},
     {id: 12, imgUri: '/images/hospitals-img/volynka-gallery/volynka12.jpg'},
 ]
