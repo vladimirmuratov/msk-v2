@@ -37,9 +37,9 @@ export default function ObpClinic() {
                     </Box>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', xl: '22px'}}
+                <Box px={4} py={10} bgColor="#D1EEFE" borderRadius="sm" fontSize={{base: '20px', xl: '22px'}}
                      data-aos="fade-up">
-                    <Heading size="lg" my={10}>Инфраструктура</Heading>
+                    <Heading size="lg" mb={10}>Инфраструктура</Heading>
                     <Text>
                             <span
                                 style={{fontWeight: 'bold'}}>Центр госпитализации и сопровождения пациентов МСК</span> является
@@ -65,9 +65,9 @@ export default function ObpClinic() {
                     </Text>
                 </Box>
                 <BaseDivider/>
-                <Box p={{base: '3', md: '4'}} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
+                <Box px={4} py={10} fontSize={{base: '20px', xl: '22px'}} data-aos="fade-up" bgColor="#D1EEFE"
                      borderRadius="sm">
-                    <Heading size="lg" my={10}>Стационар</Heading>
+                    <Heading size="lg" mb={10}>Стационар</Heading>
                     <Text>
                         В ФГБУ ОБП можно пройти стационарное лечение платной основе.
                     </Text>
