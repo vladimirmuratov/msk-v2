@@ -1,1 +1,1 @@
-export const phoneNumber = "8 800 00 00"
+export const phoneNumber = "8 (499) 719-81-00"
