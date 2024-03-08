@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
         <Head>
             {/*УДАЛИТЬ ПРИ PRODUCTION!!!*/}
-            <meta name="robots" content="noindex,nofollow" key="robots"/>
+            {/*<meta name="robots" content="noindex,nofollow" key="robots"/>*/}
             {/*-----------------------*/}
         </Head>
       <body>
