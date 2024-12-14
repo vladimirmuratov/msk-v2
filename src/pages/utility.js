@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import {Box, Grid, GridItem, Heading, Image, Text} from '@chakra-ui/react'
-import {HospitalsBlock} from '@/components/HospitalsBlock'
-import {BaseDivider} from '@/components/base/BaseDivider'
-import {BasePhoneBlock} from '@/components/base/BasePhoneBlock'
+import Head from 'next/head';
+import { Box, Grid, GridItem, Heading, Image, Text } from '@chakra-ui/react';
+import { HospitalsBlock } from '@/components/HospitalsBlock';
+import { BaseDivider } from '@/components/base/BaseDivider';
+import { BasePhoneBlock } from '@/components/base/BasePhoneBlock';
 
 export default function Utility() {
 
@@ -10,9 +10,9 @@ export default function Utility() {
         <>
             <Head>
                 <title>МСК | Услуги</title>
-                <meta charSet="utf-8"/>
-                <meta name="keywords" content="медицинские услуги, скорая помощь, госпитализация"/>
-                <meta name="description" content="компания по оказанию экстренных медицинских услуг"/>
+                <meta charSet="utf-8" />
+                <meta name="description" content="компания по оказанию экстренных медицинских услуг" />
+                <meta name="keywords" content="медицинские услуги, скорая помощь, госпитализация" />
             </Head>
             <Box>
                 <Box my="62px" pos="relative">
@@ -22,47 +22,40 @@ export default function Utility() {
                         width="0"
                         height="0"
                         sizes="100vw"
-                        style={{width: '100%', height: 'auto'}}
+                        style={{ width: '100%', height: 'auto' }}
                     />
-                    <Box pos="absolute" top={{base: '10%', sm: '30%'}} right={{base: 0}} w="50%">
-                        <Text textAlign="center" fontSize={{base: 24, sm: 36, lg: 48}} fontWeight="bold">Услуги</Text>
+                    <Box pos="absolute" top={{ base: '10%', sm: '30%' }} right={{ base: 0 }} w="50%">
+                        <Text textAlign="center" fontSize={{ base: 24, sm: 36, lg: 48 }} color="var(--main-color)" textShadow="5px 5px 5px lightgray" fontWeight="bold">Услуги</Text>
                     </Box>
                 </Box>
-                <BasePhoneBlock/>
+                <BasePhoneBlock />
                 <Box
-                    fontSize={{base: '18px', lg: '16px', xl: '22px'}}
+                    fontSize={{ base: '18px', lg: '16px', xl: '22px' }}
                     bgColor="#0d47a1"
                     color="white"
                     mb="12"
                     borderRadius="md"
                     data-aos="fade-up"
                 >
-                    <Grid gridTemplateColumns={{base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)'}}>
+                    <Grid gridTemplateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }}>
                         <GridItem>
-                            <Image src="/images/utility1.png" h="full"/>
+                            <Image src="/images/utility1.png" h="full" />
                         </GridItem>
                         <GridItem>
                             <Box p="4">
                                 <Text>
                             <span
-                                style={{fontWeight: 'bold'}}>Центр госпитализации и сопровождения пациентов МСК</span> предоставляет
-                                    полный спектр услуг по
-                                    медицинскому ассистансу с максимальной экономией времени и высоким уровнем
-                                    комфорта.
-                                </Text>
-                                <Text mb="0">
-                                    <span style={{fontWeight: 'bold'}}>С 2013 года Центр госпитализации и сопровождения пациентов  МСК</span>
-                                    развивает направление полного цикла медицинской координации и на сегодняшний
-                                    день
-                                    является
-                                    флагманом федерального уровня в ведении пациентов даже с самыми сложными
-                                    случаями.
+                                style={{ fontWeight: 'bold' }}>Центр госпитализации и сопровождения пациентов МСК</span>
+                                    &nbsp;занимает уникальное положение – она аккредитована как
+                                    официальный представитель ведущих медицинских объектов столицы: начиная с
+                                    муниципальных клиник, включая ведомственные организации здравоохранения и заканчивая
+                                    федеральными медучреждениями под эгидой Управления делами Президента РФ.
                                 </Text>
                             </Box>
                         </GridItem>
                     </Grid>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
                     p={4}
                     bgColor="#D1EEFE"
@@ -77,9 +70,9 @@ export default function Utility() {
                         основные принципы нашей работы и гарантии эффективного лечения для пациента.
                     </Text>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
-                    fontSize={{base: '20px', xl: '22px'}}
+                    fontSize={{ base: '20px', xl: '22px' }}
                     bgColor="#D1EEFE"
                     my="10"
                     p="4"
@@ -92,7 +85,7 @@ export default function Utility() {
                         МСК, доверяя нам свое здоровье.
                     </Text>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box px={4} color="#0d47a1" data-aos="fade-up">
                     <Heading>
                         Время – самый ценный ресурс, который получают пациенты,
@@ -101,13 +94,14 @@ export default function Utility() {
                         обратившись в Центр госпитализации и сопровождения пациентов МСК.
                     </Heading>
                 </Box>
-                <BaseDivider/>
-                <Box fontSize={{base: '18px', lg: '16px', xl: '22px'}} bgColor="#0d47a1" color="white" borderRadius="sm"
+                <BaseDivider />
+                <Box fontSize={{ base: '18px', lg: '16px', xl: '22px' }} bgColor="#0d47a1" color="white"
+                     borderRadius="sm"
                      data-aos="fade-up">
-                    <Grid gridTemplateColumns={{base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)'}}>
+                    <Grid gridTemplateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }}>
                         <GridItem>
                             <Box p="4" height="full" display="flex" justifyContent="center" alignItems="center">
-                                <Text fontSize={{base: '20px', md: '24px', lg: '26px'}} lineHeight="10">
+                                <Text fontSize={{ base: '20px', md: '24px', lg: '26px' }} lineHeight="10">
                                     Собственный автопарк скорой помощи и наличие партнерской сети стационаров
                                     позволяет нам четко следовать принципу «терапевтического окна» или «золотого
                                     часа»!
@@ -115,13 +109,13 @@ export default function Utility() {
                             </Box>
                         </GridItem>
                         <GridItem>
-                            <Image src="/images/utility2.png" h="full"/>
+                            <Image src="/images/utility2.png" h="full" />
                         </GridItem>
                     </Grid>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
-                    fontSize={{base: '20px', xl: '22px'}}
+                    fontSize={{ base: '20px', xl: '22px' }}
                     bgColor="#D1EEFE"
                     p="4"
                     color="#0D47A1"
@@ -133,21 +127,21 @@ export default function Utility() {
                         зависит от сроков госпитализации пациента в стационар!
                     </Text>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
-                    fontSize={{base: '18px', xl: '22px'}}
+                    fontSize={{ base: '18px', xl: '22px' }}
                     bgColor="#0d47a1"
                     color="white"
                     borderRadius="sm"
                     data-aos="fade-up"
                 >
-                    <Grid gridTemplateColumns={{base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)'}}>
+                    <Grid gridTemplateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }}>
                         <GridItem>
-                            <Image src="/images/utility3.png" h="full"/>
+                            <Image src="/images/utility3.png" h="full" />
                         </GridItem>
                         <GridItem>
                             <Box p="4" height="full" display="flex" justifyContent="center" alignItems="center">
-                                <Text fontSize={{base: '20px', md: '22px', xl: '26px'}} lineHeight="10">
+                                <Text fontSize={{ base: '20px', md: '22px', xl: '26px' }} lineHeight="10">
                                     Система преемственности и персонифицированный подход, реализованные в Центре
                                     госпитализации
                                     и сопровождения пациентов МСК, значительно повышает результативность оказания
@@ -158,8 +152,8 @@ export default function Utility() {
                         </GridItem>
                     </Grid>
                 </Box>
-                <BaseDivider/>
-                <Box fontSize={{base: '20px', xl: '22px'}}
+                <BaseDivider />
+                <Box fontSize={{ base: '20px', xl: '22px' }}
                      bgColor="#D1EEFE"
                      p="4"
                      color="#0D47A1"
@@ -175,7 +169,7 @@ export default function Utility() {
                         партнерам является их прозрачность и медицинская помощь высочайшего уровня.
                     </Text>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
                     px={4}
                     color="#0d47a1"
@@ -184,23 +178,23 @@ export default function Utility() {
                     gap="4"
                     data-aos="fade-up"
                 >
-                    <Heading alignSelf={{base: 'start', md: 'start'}}>
+                    <Heading alignSelf={{ base: 'start', md: 'start' }}>
                         БЫСТРОЕ ОБСЛУЖИВАНИЕ
                     </Heading>
-                    <Heading alignSelf={{base: 'start', md: 'center'}}>
+                    <Heading alignSelf={{ base: 'start', md: 'center' }}>
                         ВЫСОЧАЙШЕЕ КАЧЕСТВО
                     </Heading>
-                    <Heading alignSelf={{base: 'start', md: 'end'}} mb="0">
+                    <Heading alignSelf={{ base: 'start', md: 'end' }} mb="0">
                         ПРОЗРАЧНАЯ СТОИМОСТЬ ЛЕЧЕНИЯ
                     </Heading>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box
                     py={10}
                     px={4}
                     bgColor="#0d47a1"
                     color="white"
-                    fontSize={{base: '20px', xl: '22px'}}
+                    fontSize={{ base: '20px', xl: '22px' }}
                     fontWeight="bold"
                     borderRadius="sm"
                     data-aos="fade-up"
@@ -216,7 +210,7 @@ export default function Utility() {
                             Медицинское сопровождение по системе «Все включено»:
                         </Heading>
                     </Box>
-                    <Grid gridTemplateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)'}} mt={10}>
+                    <Grid gridTemplateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }} mt={10}>
                         <GridItem>
                             <Text>Организация стационарного лечения</Text>
                             <Text>Организация ухода в стационаре</Text>
@@ -236,7 +230,7 @@ export default function Utility() {
                         </GridItem>
                     </Grid>
                 </Box>
-                <BaseDivider/>
+                <BaseDivider />
                 <Box data-aos="fade-up">
                     <Box px={4}>
                         <Heading size="lg" color="#0D47A1">Партнерская сеть Центра госпитализации и сопровождения
@@ -244,10 +238,10 @@ export default function Utility() {
                             МСК
                         </Heading>
                     </Box>
-                    <HospitalsBlock isLocal={true}/>
+                    <HospitalsBlock isLocal={true} />
                 </Box>
-                <BasePhoneBlock/>
+                <BasePhoneBlock />
             </Box>
         </>
-    )
+    );
 }

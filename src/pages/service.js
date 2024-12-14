@@ -24,7 +24,7 @@ export default function Service() {
                         style={{width: '100%', height: 'auto'}}
                     />
                     <Box pos="absolute" top={{base: '10%', sm: '30%'}} left={{base: 5}} w="50%">
-                        <Text fontSize={{base: 24, sm: 36, lg: 48}} fontWeight="bold">Наша забота о Вашем здоровье</Text>
+                        <Text fontSize={{base: 24, sm: 36, lg: 48}} color="var(--main-color)" textShadow="5px 5px 5px lightgray" fontWeight="bold">Наша забота о Вашем здоровье</Text>
                     </Box>
                 </Box>
                 <BasePhoneBlock/>

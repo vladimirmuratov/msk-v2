@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>МСК | Главная</title>
+                <title>Платная госпитализация</title>
                 <meta name="keywords" content="медицинские услуги, скорая помощь, госпитализация"/>
                 <meta name="description" content="компания по оказанию экстренных медицинских услуг"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -35,8 +35,8 @@ export default function Home() {
                     pos="relative"
                 >
                     <Box display={{base: 'none', lg: 'block'}} pos="absolute" top="20%" left={{md: '50%'}}>
-                        <Heading size={{lg: '2xl'}} color="#1F1F1F" mb={2}>МСК-госпитализация</Heading>
-                        <Heading size={{lg: 'xl'}} color="#1F1F1F" fontWeight="medium" mb={2}>сервисная
+                        <Heading size={{lg: '2xl'}} color="var(--main-color)" mb={2}>МСК-госпитализация</Heading>
+                        <Heading size={{lg: 'xl'}} color="var(--main-color)" fontWeight="medium" mb={2}>сервисная
                             компания</Heading>
                         <Box fontSize={{lg: '16px'}}>
                             <Text color="#727272">
